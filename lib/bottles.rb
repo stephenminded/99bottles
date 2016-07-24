@@ -32,7 +32,9 @@ VERSE
   end
 
   def bottle_string(n)
-    if n > 1
+    if n == 6
+      "1 six pack"
+    elsif n > 1
       "#{n} bottles"
     elsif n == 1
       "1 bottle"
